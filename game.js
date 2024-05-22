@@ -59,7 +59,7 @@ const worldHeight = canvas.height;
 // Position initiale du joueur
 let player = {
     x: canvas.width / 6,
-    y: canvas.height - 400,  // Positionné vers le bas de la scène
+    y: canvas.height - 200,  // Positionné vers le bas de la scène
     width: 150,
     height: 150,  // Augmenter la hauteur pour un personnage plus réaliste
     hitboxWidth: 100,  // Largeur de la hitbox
