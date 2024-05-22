@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Menu - Cyberpunk Open World 2D</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="mainMenu">
+        <h2>Main Menu</h2>
+        <p id="previousScore">Previous Score: 0</p>
+        <button id="startGame">Start Game</button>
+    </div>
+    <script>
+        document.getElementById('startGame').addEventListener('click', function () {
+            window.location.href = 'game.html';
+        });
+
+        // Charger le score précédent depuis le stockage local
+        const previousScore = localStorage.getItem('previousScore') || 0;
+        document.getElementById('previousScore').textContent = 'Previous Score: ' + previousScore;
+    </script>
+</body>
+
+</html>
