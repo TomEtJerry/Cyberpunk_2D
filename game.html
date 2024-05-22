@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberpunk Open World 2D</title>
+    <link rel="stylesheet" href="style_game.css">
+</head>
+
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <div id="healthBarContainer">
+        <div id="healthBar"></div>
+    </div>
+    <div id="gameOver" class="hidden">
+        <h2>Game Over</h2>
+        <button id="returnToMainMenuFromGameOver">Return to Main Menu</button>
+    </div>
+    <div id="pauseMenu">
+        <h2>Pause Menu</h2>
+        <button id="resumeGame">Resume Game</button>
+        <button id="returnToMainMenu">Return to Main Menu</button>
+    </div>
+    <div id="menu">
+        <h2>Menu</h2>
+        <button id="upgradeSpeed">Upgrade Speed</button>
+        <button id="upgradePower">Upgrade Power</button>
+        <button id="changeWeapon">Change Weapon</button>
+        <button id="closeMenu">Close Menu</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>

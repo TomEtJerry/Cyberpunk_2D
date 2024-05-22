@@ -1,0 +1,55 @@
+/* style.css pour index.html */
+
+html,
+body {
+    background-image: url(image/fond_ecran.jpg);
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    font-family: Arial, sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+#mainMenu {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px 70px 50px 70px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 500px;
+}
+
+#mainMenu h2 {
+    margin: 0 0 20px;
+    font-size: 40px;
+    margin: 0 0 10px 0;
+}
+
+#mainMenu p {
+    margin: 0 0 50px 0;
+    font-size: 22px;
+}
+
+#mainMenu button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 28px;
+    background-color: #42C29F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#mainMenu button:hover {
+    background-color: #379F88;
+}
