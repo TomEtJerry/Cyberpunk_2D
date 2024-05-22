@@ -67,7 +67,7 @@ let player = {
     hitboxOffsetX: 0,  // Décalage en x de la hitbox par rapport à la position du joueur
     hitboxOffsetY: 0,  // Décalage en y de la hitbox par rapport à la position du joueur
     color: 'blue',
-    speed: 10,
+    speed: 20,
     power: 1,
     weapon: 'default',
     bullets: [],
